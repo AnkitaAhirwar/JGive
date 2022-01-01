@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.utils.jgive.WebDriverListener" />
+	</listeners>
+	<test name="Test">
+		<classes>
+			<class name="com.testsuite.jgive.AdminLoginTest" />
+			<class name="com.testsuite.jgive.AdminDashboardTest" />
+			<class name="com.testsuite.jgive.AdminCampaignsTest" />
+			<class name="com.testsuite.jgive.AdminDonationsTest" />
+			<class name="com.testsuite.jgive.AdminIndividualDonorTest" />
+			<class name="com.testsuite.jgive.AdminOrganizationalDonorTest" />
+			<class name="com.testsuite.jgive.AdminVendorsTest" />
+			<class name="com.testsuite.jgive.AdminCampaignFieldsGroupTest" />
+			<class name="com.testsuite.jgive.AdminCampaignFormFieldsTest" />
+			<class name="com.testsuite.jgive.AdminCountriesTest" />
+			<class name="com.testsuite.jgive.AdminRegionsTest" />
+			<class name="com.testsuite.jgive.AdminCitiesTest" />
+			<class name="com.testsuite.jgive.AdminDonorsTest" />
+			<class name="com.testsuite.jgive.AdminControlPanelTest" />
+			<class name="com.testsuite.jgive.AdminCampaignwiseReportTest" />
+			<class name="com.testsuite.jgive.AdminReportsTest" />
+			<class name="com.testsuite.jgive.AdminMenusTest" />
+			<class name="com.testsuite.jgive.UserLoginTest" />
+			<class name="com.testsuite.jgive.UserCreateCampaignTest" />
+			<class name="com.testsuite.jgive.UserMyDonationsTest" />
+			<class name="com.testsuite.jgive.UserVendorsTest" />
+			<class name="com.testsuite.jgive.UserIndividualContactsTest" />
+			<class name="com.testsuite.jgive.UserDonorsTest" />
+			<class name="com.testsuite.jgive.UserDonationsTest" />
+			<class name="com.testsuite.jgive.UserOrganizationContactsTest" />
+			<class name="com.testsuite.jgive.UserAllCampaignsTest" />
+			<class name="com.testsuite.jgive.UserReportsTest" />
+			<class name="com.testsuite.jgive.UserAllDonationsTest" />
+			<class name="com.testsuite.jgive.UserDashboardTest" />
+			<class name="com.testsuite.jgive.UserLogOutTest" />
+			<class name="com.testsuite.jgive.UserGuestDonationTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

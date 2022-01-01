@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="49.613" tests="10" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="15.0.2+7-27"/>
+    <property name="sun.boot.library.path" value="C:\Users\Dell\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\EclipseWorkspace\JGive"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\EclipseWorkspace\JGive"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="15.0.2+7-27"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Dell\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="D:\EclipseWorkspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf18138088457003906872.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\Dell\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/Dell/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin/server;C:/Users/Dell/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-11.0.6\bin;C:\MinGW\bin;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;D:\javatools\apache-maven-3.8.3\bin;C:\Users\Dell\AppData\Local\Microsoft\WindowsApps;C:\Users\Dell\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Dell\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1\bin;;C:\Program Files (x86)\Sophos\Sophos SSL VPN Client\bin;C:\WINDOWS\System32;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="59.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Dell"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="15"/>
+    <property name="user.name" value="Dell"/>
+    <property name="java.class.path" value="C:\Users\Dell\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.16.0.20210129-0849\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.home" value="C:\Users\Dell\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="15.0.2"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\EclipseWorkspace\JGive\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="adminlogin" classname="com.testsuite.jgive.AdminLoginTest" time="1.394"/>
+  <testcase name="adminlogin" classname="com.testsuite.jgive.AdminLoginTest" time="3.914"/>
+  <testcase name="admindashboard" classname="com.testsuite.jgive.AdminDashboardTest" time="3.32"/>
+  <testcase name="adminindividualdonors" classname="com.testsuite.jgive.AdminIndividualDonorTest" time="8.123"/>
+  <testcase name="adminindividualdonors" classname="com.testsuite.jgive.AdminIndividualDonorTest" time="4.657"/>
+  <testcase name="adminindividualdonors" classname="com.testsuite.jgive.AdminIndividualDonorTest" time="7.273"/>
+  <testcase name="adminindividualdonors" classname="com.testsuite.jgive.AdminIndividualDonorTest" time="3.532"/>
+  <testcase name="adminorganizationaldonor" classname="com.testsuite.jgive.AdminOrganizationalDonorTest" time="6.585"/>
+  <testcase name="adminorganizationaldonor" classname="com.testsuite.jgive.AdminOrganizationalDonorTest" time="5.848"/>
+  <testcase name="adminorganizationaldonor" classname="com.testsuite.jgive.AdminOrganizationalDonorTest" time="4.967"/>
+</testsuite>
